@@ -1,0 +1,43 @@
+{
+  "name": "webauthn-website",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "homepage": "/public",
+  "dependencies": {
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "bulma": "0.8.0",
+    "lodash.chunk": "4.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.0",
+    "typescript": "~3.7.2",
+    "uuid": "7.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash.chunk": "^4.2.6",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/uuid": "^7.0.0"
+  }
+}
